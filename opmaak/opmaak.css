@@ -1,41 +1,53 @@
-* {
-	font-family: Verdanne, Aptos, sans-serif;
-	font-size: 16px;
-	background-color: #FFFBF1;
+* {			/* Dit is de universele selector van de opmaak. */
+	font-family: Verdanne, Aptos, sans-serif; /* Dit is het lettertype dat de hele website krijgt. */
+	font-size: 16px;  /* Dit is de grootte van het lettertype op de hee website. */
 }
 
-p.voettekst {
-	font-size: 12px;
+body {			/* Dit is de opmaak voor de body van de website. */
+	background-color: #FFFBF1; /* Dit is het achtergrond kleur voor de body.*/
+}
+
+p.voettekst {		/* Dit is de opmaak voor de tekst van de footer van de website. */
+	font-size: 12px; /* Dit is de lettergrootte voor de alinea in de footer. */
 	
 }
-h1 {
-	text-align: center;
-	font-size: 30px;
+h1 {			/* Dit is de opmaak voor de grote titel van de website. */
+	text-align: center; /* Dit is om de text van de grote titel te centreren. */
+	font-size: 30px; /* Dit is het lettergrootte van de grootte titel. */
 }
 
-header {
-	padding: 5px;
-	background-color: rgb(2, 9, 40);
-	
-}
-
-img {
-	width: 100px;
-}
-
-nav {
-	color: white;
-	float: right;
-	background-color: rgb(2, 9, 40);
-	padding: 40px;
-}
-
-footer {
-	text-align: center;
-	background-color: black;
+header {			/* Dit is de opmaak voor de header van de website. */ 
+	padding: 5px; /* Dit is voor het kader van de header. */
+	background-color: rgb(2, 9, 40); /* Dit is voor het achtergrond kleur van de header. */
 	
 }
 
-main {
-	margin-right: 10px;
+img {				/* Dit is de opmaak voor de afbeelding. */
+	width: 100px; /* Dit is de breedte van de afbeelding. */
+}
+
+nav {				/* Dit is de opmaak voor de navigator van de website. */
+	color: white; /* Dit is de tekstkleur van de navigator. */
+	float: right; /* Dit is om de positie van de navigator te plaatsen. */
+	background-color: rgb(2, 9, 40); /* Dit is het achtergrond kleur van de navigator. */
+	padding: 40px; /* Dit is om de afstand tussen de tekst en het bovenste van het kader te maken.  */
+}
+
+footer {			/* Dit is de opmaak voor de footer van de website. */
+	color: white; /* Dit is de tekstkleur van de footer. */
+	text-align: center; /* Dit is om de tekst in de footer te centreren. */
+	background-color: #020628; /* Dit id de achtergrond kleur van de footer. */
+	padding: 5px; /* Dit is de afstand van de tekst in de footer en het bovenste deel van het kader. */
+	
+}
+
+main {				/*  Dit is de opmaak voor de main van de website. */
+	margin-right: 15px; /* Dit is om de main een marge te geven aan de rechter kant.  */
+}
+
+aside {				/* Dit is de opmaak voor de aside van de website. */
+	float: right; /* Dit is om de positie van de aside te plaatsen. */
+	margin-top: -30px; /* Dit om boven de aside meer of minder marge te geven. */
+	margin-left: 50px; /* Dit om de aside een marge te geven aan de linker kant. */
+	margin-right: 10px; /* Dit is om de aside een marge te geven aan de rechter kant. */
 }
