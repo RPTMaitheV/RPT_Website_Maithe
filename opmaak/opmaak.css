@@ -30,7 +30,7 @@ nav {				/* Dit is de opmaak voor de navigator van de website. */
 	color: white; /* Dit is de tekstkleur van de navigator. */
 	float: right; /* Dit is om de positie van de navigator te plaatsen. */
 	background-color: rgb(2, 9, 40); /* Dit is het achtergrond kleur van de navigator. */
-	padding: 40px; /* Dit is om de afstand tussen de tekst en het bovenste van het kader te maken.  */
+	padding: 30px; /* Dit is om de afstand tussen de tekst en het bovenste van het kader te maken.  */
 }
 
 footer {			/* Dit is de opmaak voor de footer van de website. */
@@ -50,4 +50,16 @@ aside {				/* Dit is de opmaak voor de aside van de website. */
 	margin-top: -30px; /* Dit om boven de aside meer of minder marge te geven. */
 	margin-left: 50px; /* Dit om de aside een marge te geven aan de linker kant. */
 	margin-right: 10px; /* Dit is om de aside een marge te geven aan de rechter kant. */
+}
+
+ul.vierkante-lijst {		/* Dit is de opmaak voor de opsomming met vierkante opsommingsteken. */
+	list-style-type: square; /* Dit is om het opsommingsteken een vierkant te maken. */
+}
+
+.vierkante-lijst li {		/* Dit is de opmaak voor de opsomming. */
+	display: list-item; /* Dit is om de vierkante opsomming te behouden. */
+	float: left; /* Dit is om de positie van de opsomming te plaatsen. */
+	margin-right: 30px; /* Dit is om de marge van rechts in te stellen. */
+	padding-left: 10px; /* Dit is om het kader van de opsomming vorm te geven aan de linker kant. */
+	padding-right: 10px; /* Dit is om het kader van de opsomming vorm te geven aan de rechter kant.*/
 }
